@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace QCIFSA_HFT_2022232.Models
 {
-    internal class Series
+    public class Series
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

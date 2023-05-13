@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fonad\\Documents\\SULI\\HFT\\2nd\\feleves\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232.csproj": {}
+    "C:\\Users\\fonad\\Documents\\SCHOOL\\HFT\\2nd\\feleves\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fonad\\Documents\\SULI\\HFT\\2nd\\feleves\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232.csproj": {
+    "C:\\Users\\fonad\\Documents\\SCHOOL\\HFT\\2nd\\feleves\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fonad\\Documents\\SULI\\HFT\\2nd\\feleves\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232.csproj",
+        "projectUniqueName": "C:\\Users\\fonad\\Documents\\SCHOOL\\HFT\\2nd\\feleves\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232.csproj",
         "projectName": "QCIFSA_HFT_2022232",
-        "projectPath": "C:\\Users\\fonad\\Documents\\SULI\\HFT\\2nd\\feleves\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232.csproj",
+        "projectPath": "C:\\Users\\fonad\\Documents\\SCHOOL\\HFT\\2nd\\feleves\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232.csproj",
         "packagesPath": "C:\\Users\\fonad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fonad\\Documents\\SULI\\HFT\\2nd\\feleves\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232\\obj\\",
+        "outputPath": "C:\\Users\\fonad\\Documents\\SCHOOL\\HFT\\2nd\\feleves\\QCIFSA_HFT_2022232\\QCIFSA_HFT_2022232\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
