@@ -15,8 +15,10 @@ namespace QCIFSA_HFT_2022232.Models
         [StringLength(240)]
         public string PName { get; set; }
         public int Users { get; set; }
-
-        List<Series> seriesList;
-
+        public virtual ICollection<Series> series { get; set; }
+        public Platform(string PName )
+        {
+            this.PName = PName;
+        }
     }
 }

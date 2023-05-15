@@ -26,10 +26,10 @@ namespace QCIFSA_HFT_2022232.Repository
             }
             protected override void OnModelCreating(ModelBuilder modelBuilder)
             {
-                modelBuilder.Entity<Series>()
-                    .HasOne(t => t.platform
-                    .WithMany(t => t.Games)
-                    .HasForeignKey(t => t.PublisherID);
+            modelBuilder.Entity<Series>()
+                .HasOne(t => t.platform)
+                .WithMany(t => t.series)
+                .HasForeignKey(t => t.title);
                 //modelBuilder.Entity<Series>()
                 //     .HasOne(t => t.Style)
                 //     .WithMany(t => Games)
@@ -38,23 +38,18 @@ namespace QCIFSA_HFT_2022232.Repository
 
                 modelBuilder.Entity<Series>().HasData(new Series[]
                 {
-                new Series("1#Doom#2016#1#1"),
-                new Series("2#Wolfenstein#2015#1#1"),
-                new Series("3#StarCraft#2013#2#2"),
-                new Series("4#BattleFront SW#2015#1#1"),
-                new Series("5#Overwatch#2016#1#2"),
-                new Series("6#Warcraft3#1998#2#2"),
-                new Series("7#Warhammer#2013#2#2"),
+                    new Series("Last of us", 10)
+                
                 });
-                modelBuilder.Entity<Publisher>().HasData(new Publisher[]
+                modelBuilder.Entity<Platform>().HasData(new Platform[]
                 {
-                new Publisher("1#Bethesda"),
-                new Publisher("2#Activision Blizzard"),
+                    new Platform("Netflix"),
+                    new Platform("Max"),
                 });
-                modelBuilder.Entity<Style>().HasData(new Style[]
+                modelBuilder.Entity<Actors>().HasData(new Actors[]
                 {
-                new Style("1#FPS"),
-                new Style("2#RTS")
+                    new Actors("DeNiro",10000),
+                    new Actors("Willis",100000)
                 });
                 ;
 

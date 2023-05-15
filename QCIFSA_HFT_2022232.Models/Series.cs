@@ -18,5 +18,11 @@ namespace QCIFSA_HFT_2022232.Models
 
         List<Actors> actorList;
         public Platform platform { get; set; }
+        public Series(string title, int rating)
+        {
+            this.title = title;
+            Rating = rating;
+
+        }
     }
 }

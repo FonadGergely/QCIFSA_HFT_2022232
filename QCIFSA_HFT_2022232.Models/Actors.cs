@@ -17,6 +17,10 @@ namespace QCIFSA_HFT_2022232.Models
         public string ActorName { get; set; }
         public int BaseSalary { get; set; }
         public Series series { get; set; }
-
+        public Actors(string actorName, int baseSalary)
+        {
+            ActorName = actorName;
+            BaseSalary = baseSalary;
+        }
     }
 }
