@@ -16,7 +16,7 @@ namespace QCIFSA_HFT_2022232.Repository
             public DbSet<Platform> Styles { get; set; }
             public videogamesDbContex()
             {
-            this.Database.EnsureCreated();
+                this.Database.EnsureCreated();
             }
             protected override void OnConfiguring(DbContextOptionsBuilder builder)
             {
@@ -30,12 +30,6 @@ namespace QCIFSA_HFT_2022232.Repository
                 .HasOne(t => t.platform)
                 .WithMany(t => t.series)
                 .HasForeignKey(t => t.title);
-                //modelBuilder.Entity<Series>()
-                //     .HasOne(t => t.Style)
-                //     .WithMany(t => Games)
-                //     .HasForeignKey(t => t.TypeID);
-
-
                 modelBuilder.Entity<Series>().HasData(new Series[]
                 {
                     new Series("Last of us", 10)
