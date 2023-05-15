@@ -27,7 +27,7 @@ namespace QCIFSA_HFT_2022232.Repository
             protected override void OnModelCreating(ModelBuilder modelBuilder)
             {
                 modelBuilder.Entity<Series>()
-                    .HasOne(t => t.Platform)
+                    .HasOne(t => t.platform
                     .WithMany(t => t.Games)
                     .HasForeignKey(t => t.PublisherID);
                 //modelBuilder.Entity<Series>()

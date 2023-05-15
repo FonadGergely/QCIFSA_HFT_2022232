@@ -15,7 +15,8 @@ namespace QCIFSA_HFT_2022232.Models
         [StringLength(240)]
         public string title { get; set; }
         public int Rating { get; set; }
-        public int Budget { get; set; }
+
         List<Actors> actorList;
+        public Platform platform { get; set; }
     }
 }

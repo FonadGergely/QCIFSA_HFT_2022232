@@ -17,5 +17,6 @@ namespace QCIFSA_HFT_2022232.Models
         public int Users { get; set; }
 
         List<Series> seriesList;
+
     }
 }
